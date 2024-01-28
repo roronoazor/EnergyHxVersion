@@ -1,0 +1,63 @@
+{
+    "rooms": {},
+    "retrofit": {},
+    "wind_turbine": {
+        "site_data": {
+            "name": "Unilag",
+            "data": {
+                "location": {
+                    "lat": 6.35,
+                    "long": 3.2
+                },
+                "air_data": {
+                    "air_density": 1.2205,
+                    "temp": 27.0,
+                    "altitude": 39.0,
+                    "pressure": 4.0
+                },
+                "wind_dist_data": {
+                    "w_shape_param": 3.2,
+                    "w_scale_param": 5.0,
+                    "velocity": 4.3,
+                    "height": 10.0
+                }
+            }
+        },
+        "turbine": {
+            "name": "Hitatchi Wind Turbine",
+            "data": {
+                "rated_power": 2000.0,
+                "cut_in_wind_speed": 4.0,
+                "cut_out_wind_speed": 25.0,
+                "rotor_diameter": 80.0,
+                "hub_height": 78.0,
+                "units": 4,
+                "blade_length": 39.0,
+                "no_blades": 3
+            }
+        }
+    },
+    "electric_car": {
+        "site_data": {
+            "UNILAG": {
+                "solar_power": 2.0,
+                "biomass_power": 1.0,
+                "wind_power": 2.0,
+                "charger_slow_rating": 4.0,
+                "charger_medium_rating": 5.0,
+                "charger_fast_rating": 5.0,
+                "slow_charger_numbers": 2,
+                "medium_charger_numbers": 3,
+                "fast_charger_numbers": 4,
+                "max_bess_capacity": 56.0
+            }
+        },
+        "analyzed_output": {
+            "output_a": 5.0,
+            "output_b": 43.0,
+            "output_c": 0,
+            "output_d": 0,
+            "deficient_power": 38.0
+        }
+    }
+}

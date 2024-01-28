@@ -1,0 +1,72 @@
+{
+    "rooms": {},
+    "retrofit": {},
+    "solar_pv": {
+        "site_data": {
+            "name": "UNILAG",
+            "data": {
+                "installation_type": "Fixed Grid-Tied",
+                "site": "roof of building",
+                "latitude": 6.52,
+                "longitude": 3.39,
+                "elevation": 45.0,
+                "no_wings": 88,
+                "area": 28.89,
+                "pitch": 21
+            }
+        },
+        "module_data": {
+            "name": "",
+            "data": {
+                "cell_type": "3",
+                "rated power": 2.0,
+                "max_p_volt": 2.0,
+                "max_p_cur": 2.0,
+                "open_c_vol": 2.0,
+                "short_c_cur": 2.0,
+                "fuse_rating": 2.0,
+                "max_sys_volt": 2.0,
+                "op_temp_l": 2.0,
+                "op_temp_u": 2.0,
+                "pow_tol_l": 2.0,
+                "pow_tol_u": 2.0,
+                "Temp Coeff": {
+                    "temp_coeff_p": 222.0,
+                    "temp_coeff_v": 2.0,
+                    "temp_coeff_i": 2.0
+                },
+                "mod_dim": {
+                    "length": 2.0,
+                    "breadth": 2.0,
+                    "height": 2.0
+                },
+                "mod_eff": 2.0,
+                "weight": 22.0
+            }
+        },
+        "inverter_data": {
+            "name": "TABUCHI ELECTRIC EPW-T250P6-US",
+            "data": {
+                "type": "mono-crystalline, 3 bus bar",
+                "max_inp_volt": 1000.0,
+                "mppt_volt_range_u": 500.0,
+                "mppt_volt_range_l": 800.0,
+                "mppt_units": 6,
+                "eff": 97.6
+            }
+        },
+        "constants": {
+            "data": {
+                "amb_temp": 0.0,
+                "tolerance": 0.0,
+                "dirt_loss": 0.0,
+                "assumed_dc_loss": 0.0,
+                "assumed_ac_loss": 0.0,
+                "temp_effect": 0.0,
+                "safety_marg": 0.0,
+                "eff_cell_temp": 0.0,
+                "months": []
+            }
+        }
+    }
+}

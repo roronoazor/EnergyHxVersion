@@ -1,0 +1,98 @@
+{
+    "rooms": {
+        "slate office": {
+            "room_type": "OFFICES",
+            "button": "btn_add_office",
+            "appliances": {
+                "Radio": {
+                    "power_rating": 12.0,
+                    "units": 1,
+                    "operating_hours": 1
+                }
+            },
+            "cooling_load": {
+                "result": {},
+                "saved_data": {}
+            }
+        }
+    },
+    "retrofit": {},
+    "solar_pv": {
+        "site_data": {
+            "name": "",
+            "data": {}
+        },
+        "module_data": {
+            "name": "",
+            "data": {}
+        },
+        "inverter_data": {
+            "name": "",
+            "data": {}
+        },
+        "constants": {
+            "data": {}
+        }
+    },
+    "wind_turbine": {
+        "site_data": {
+            "name": "UNILAG",
+            "data": {
+                "location": {
+                    "lat": 298.15,
+                    "long": 298.15
+                },
+                "air_data": {
+                    "air_density": 298.15,
+                    "temp": 298.15,
+                    "altitude": 298.15,
+                    "pressure": 298.15
+                },
+                "wind_dist_data": {
+                    "w_shape_param": 298.15,
+                    "w_scale_param": 298.15,
+                    "velocity": 298.15,
+                    "height": 298.15
+                }
+            }
+        },
+        "turbine": {
+            "name": "Hitatchi Wind Turbine",
+            "data": {
+                "rated_power": 2000.0,
+                "cut_in_wind_speed": 4.0,
+                "cut_out_wind_speed": 25.0,
+                "rotor_diameter": 80.0,
+                "hub_height": 78.0,
+                "units": 4,
+                "blade_length": 39.0,
+                "no_blades": 3
+            }
+        }
+    },
+    "electric_car": {
+        "site_data": {
+            "UNILAG": {
+                "ev_charger_name": "fdfd",
+                "solar_power": 12.0,
+                "biomass_power": 12.0,
+                "wind_power": 12.0,
+                "charger_slow_rating": 23.0,
+                "charger_medium_rating": 1.0,
+                "charger_fast_rating": 3.0,
+                "slow_charger_numbers": 21,
+                "medium_charger_numbers": 22,
+                "fast_charger_numbers": 11,
+                "max_bess_capacity": 23.0,
+                "save": true
+            }
+        },
+        "analyzed_output": {
+            "output_a": 36.0,
+            "output_b": 538.0,
+            "output_c": 0,
+            "output_d": 0,
+            "deficient_power": 502.0
+        }
+    }
+}

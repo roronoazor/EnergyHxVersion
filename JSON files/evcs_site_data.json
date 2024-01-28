@@ -1,0 +1,16 @@
+{
+    "UNILAG": {
+        "ev_charger_name": "",
+        "solar_power": 23.12,
+        "biomass_power": 32.0,
+        "wind_power": 12.0,
+        "charger_slow_rating": 23.12,
+        "charger_medium_rating": 32.12,
+        "charger_fast_rating": 3.12,
+        "slow_charger_numbers": 23,
+        "medium_charger_numbers": 22,
+        "fast_charger_numbers": 11,
+        "max_bess_capacity": 2300.0,
+        "save": true
+    }
+}
